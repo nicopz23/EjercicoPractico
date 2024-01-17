@@ -1,7 +1,5 @@
 package Heredadas;
 
-import ClasePadre.Vehiculo;
-
 public class Automovil extends VehiculoMotorizado {
     protected int numero_puertas;
 

@@ -5,8 +5,6 @@ import Heredadas.Automovil;
 import Heredadas.Motocicleta;
 import Heredadas.VehiculoMotorizado;
 
-import java.time.LocalDate;
-
 public class Main {
     public static void main(String[] args) {
         Vehiculo vehiculo = new Vehiculo("Renault","2022","2021");
@@ -22,7 +20,6 @@ public class Main {
         System.out.println("---------------------------------------------------");
         System.out.println(motocicleta.mostrarDetalles());
         System.out.println("---------------------------------------------------");
-        System.out.println(vehiculoMotorizado.toString());
     }
 
 }
