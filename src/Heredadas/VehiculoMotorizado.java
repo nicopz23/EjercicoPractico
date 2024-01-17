@@ -11,7 +11,10 @@ public class VehiculoMotorizado extends Vehiculo {
     }
 
     public String mostrarDetalles() {
-        return marca + " " + modelo + " " + anoFabricacion + " " + tipoCombustible;
+        return "Marca: " + marca + "\n" +
+                "" + "Modelo: " + modelo + "\n" +
+                "" + "Año de Fabricacion: " + anoFabricacion + "\n" +
+                "" + "Tipo de combustible: " + tipoCombustible;
     }
 
     @Override

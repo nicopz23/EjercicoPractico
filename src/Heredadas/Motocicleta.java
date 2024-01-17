@@ -9,6 +9,10 @@ public class Motocicleta extends VehiculoMotorizado {
     }
 
     public String mostrarDetalles() {
-        return marca + " " + modelo + " " + anoFabricacion + " " + tipoCombustible + " " + tipoMoto;
+        return "Marca: " + marca + "\n" +
+                "" + "Modelo: " + modelo + "\n" +
+                "" + "Año de Fabricacion: " + anoFabricacion + "\n" +
+                "" + "Tipo de combustible: " + tipoCombustible + "\n" +
+                "" + "Tipo de moto: " + tipoMoto;
     }
 }

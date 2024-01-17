@@ -12,7 +12,9 @@ public class Vehiculo {
     }
 
     public String mostrarDetalles() {
-        return marca + " " + modelo + " " + anoFabricacion;
+        return "Marca: " + marca + "\n" +
+                "" + "Modelo: " + modelo + "\n" +
+                "" + "Año de Fabricacion: " + anoFabricacion;
     }
 
 
